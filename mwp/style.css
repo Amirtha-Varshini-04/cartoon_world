@@ -1,0 +1,88 @@
+.header-col {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity as needed */
+    z-index: 1000; /* Ensures the header stays on top */
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+    z-index: 10000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.logo {
+    font-family: 'Rancing Sans One', cursive;
+    font-size: 25px;
+    color: #550e94;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px; 
+}
+
+nav ul li a {
+    color: rgb(186, 22, 231) ;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: rgb(199, 34, 220); 
+}
+
+.main {
+    padding-top: 10%;
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 80px;
+    text-align: center;
+}
+
+body {
+    background-color: #b560ff; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.button-container {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #10af40;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 40px; 
+}
+
+button:hover {
+    background-color: #077830;
+}
